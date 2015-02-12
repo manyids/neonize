@@ -1,0 +1,2 @@
+/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles/neonAsmThresh.dir
+/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles/neonAsmThreshVid.dir

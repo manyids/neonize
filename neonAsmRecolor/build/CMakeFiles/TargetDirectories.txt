@@ -1,0 +1,2 @@
+/home/odroid/CV/b4Sight/Tools/neonAsmRecolor/build/CMakeFiles/neonAsmRecolor.dir
+/home/odroid/CV/b4Sight/Tools/neonAsmRecolor/build/CMakeFiles/neonAsmRecolorVid.dir
