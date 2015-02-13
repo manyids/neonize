@@ -1,0 +1,2 @@
+/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles/neonAsmXEdge.dir
+/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles/neonAsmXEdgeVid.dir

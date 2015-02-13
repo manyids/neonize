@@ -1,0 +1,61 @@
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <iostream>
+#include <string>
+#include <cmath>
+#include "arm_neon.h"
+
+using namespace cv;
+using namespace std;
+
+static void neon_asm_convert( Mat* input, Mat* output, int cols )
+{
+  uint8_t __restrict * dest = output->data;
+  uint8_t __restrict * src  = input->data;
+  uint8_t __restrict * srcn = input->data + cols;
+  int numPixels  = input->total() - cols; 
+  __asm__ volatile(
+		   "lsr %3, %3, #3                \n"
+		   		   
+		   ".loop:                        \n"
+		   "vld1.8   {d0}, [%1]!          \n"
+		   "vld1.8   {d1}, [%2]!          \n"
+		   "veor.8    d2 , d1, d0         \n"
+		   "vst1.8   {d2}, [%0]!          \n"
+		   "subs %3, %3, #1               \n"
+		   "bne .loop                     \n"
+		   :
+		   : "r"(dest), "r"(src), "r"(srcn), "r"(numPixels)
+		   :
+		   ); 
+}
+
+int main(void)
+{
+    Mat image  (480, 640, CV_8UC1, Scalar(0));
+    Mat dest   (480, 640, CV_8UC1, Scalar(0));
+    Mat imaget (640, 480, CV_8UC1, Scalar(0));
+    Mat destt  (640, 480, CV_8UC1, Scalar(0));
+    
+    image = imread("../test.jpg", IMREAD_GRAYSCALE); 
+    
+    namedWindow( "Display window" , WINDOW_AUTOSIZE );
+    imshow( "Display window", image );
+    waitKey(0);
+
+    neon_asm_convert( &image, &dest, image.cols );
+    imshow( "Display window", dest );
+    waitKey(0);
+
+    imaget = image.t();
+    destt  = dest.t();
+    neon_asm_convert( &imaget, &destt, imaget.cols );
+    dest = destt.t();
+    namedWindow( "Display window2", WINDOW_AUTOSIZE );
+    imshow( "Display window2", dest);
+    waitKey(0);
+
+    return 0;
+    
+}
