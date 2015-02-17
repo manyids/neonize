@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge
+CMAKE_SOURCE_DIR = /home/odroid/CV/neonize/neonAsmXEdge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build
+CMAKE_BINARY_DIR = /home/odroid/CV/neonize/neonAsmXEdge/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/neonAsmXEdge.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build
 CMakeFiles/neonAsmXEdge.dir/all:
 	$(MAKE) -f CMakeFiles/neonAsmXEdge.dir/build.make CMakeFiles/neonAsmXEdge.dir/depend
 	$(MAKE) -f CMakeFiles/neonAsmXEdge.dir/build.make CMakeFiles/neonAsmXEdge.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles  1
 	@echo "Built target neonAsmXEdge"
 .PHONY : CMakeFiles/neonAsmXEdge.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/neonAsmXEdge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/neonAsmXEdge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neonAsmXEdge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 0
 .PHONY : CMakeFiles/neonAsmXEdge.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/neonAsmXEdge.dir/clean
 CMakeFiles/neonAsmXEdgeVid.dir/all:
 	$(MAKE) -f CMakeFiles/neonAsmXEdgeVid.dir/build.make CMakeFiles/neonAsmXEdgeVid.dir/depend
 	$(MAKE) -f CMakeFiles/neonAsmXEdgeVid.dir/build.make CMakeFiles/neonAsmXEdgeVid.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles  2
 	@echo "Built target neonAsmXEdgeVid"
 .PHONY : CMakeFiles/neonAsmXEdgeVid.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/neonAsmXEdgeVid.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/neonAsmXEdgeVid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neonAsmXEdgeVid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 0
 .PHONY : CMakeFiles/neonAsmXEdgeVid.dir/rule
 
 # Convenience name for target.
@@ -123,6 +123,41 @@ CMakeFiles/neonAsmXEdgeVid.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/neonAsmXEdgeVid.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/neonAsmXEdgeVidStrong.dir
+
+# All Build rule for target.
+CMakeFiles/neonAsmXEdgeVidStrong.dir/all:
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/depend
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles  3
+	@echo "Built target neonAsmXEdgeVidStrong"
+.PHONY : CMakeFiles/neonAsmXEdgeVidStrong.dir/all
+
+# Include target in all.
+all: CMakeFiles/neonAsmXEdgeVidStrong.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/neonAsmXEdgeVidStrong.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neonAsmXEdgeVidStrong.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 0
+.PHONY : CMakeFiles/neonAsmXEdgeVidStrong.dir/rule
+
+# Convenience name for target.
+neonAsmXEdgeVidStrong: CMakeFiles/neonAsmXEdgeVidStrong.dir/rule
+.PHONY : neonAsmXEdgeVidStrong
+
+# clean rule for target.
+CMakeFiles/neonAsmXEdgeVidStrong.dir/clean:
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/clean
+.PHONY : CMakeFiles/neonAsmXEdgeVidStrong.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/neonAsmXEdgeVidStrong.dir/clean
 .PHONY : clean
 
 #=============================================================================

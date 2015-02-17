@@ -57,6 +57,30 @@ static void neon_asm_or( Mat* input1, Mat* input2, Mat* output )
 		   ); 
 }
 
+static void neon_asm_and( Mat* input1, Mat* input2, Mat* output )
+{
+  uint8_t __restrict * dest = output->data;
+  uint8_t __restrict * src1 = input1->data;
+  uint8_t __restrict * src2 = input2->data;
+  int numPixels  = input1->total(); 
+  __asm__ volatile(
+		   "lsr %3, %3, #3                \n"
+		   		   
+		   ".loop3:                       \n"
+		   "vld3.8   {d0-d2}, [%1]!       \n"
+		   "vld3.8   {d3-d5}, [%2]!       \n"
+		   "vand.8    d6 , d3, d0         \n"
+		   "vand.8    d7 , d4, d1         \n"
+		   "vand.8    d8 , d5, d2         \n"
+		   "vst3.8   {d6-d8}, [%0]!       \n"
+		   "subs %3, %3, #1               \n"
+		   "bne .loop3                    \n"
+		   :
+		   : "r"(dest), "r"(src1), "r"(src2), "r"(numPixels)
+		   :
+		   ); 
+}
+
 int main(void)
 {
     Mat image  (480, 640, CV_8UC3, Scalar(255,0,0));
@@ -74,13 +98,14 @@ int main(void)
       {
 	cap >> image;
 	neon_asm_convert( &image, &dest1, image.cols );
-	imshow( "Image window"  , image ); 
 	imaget = image.t();
 	destt  = dest1.t();
 	neon_asm_convert( &imaget, &destt, imaget.cols );
 	dest2 = destt.t();
 	neon_asm_or( &dest1, &dest2, &final );
 	imshow( "Display window"  , final ); 
+	neon_asm_and( &dest1, &dest2, &final );
+	imshow( "Image window"  , final ); 
 	if (waitKey(1)>0) break;
       }
     

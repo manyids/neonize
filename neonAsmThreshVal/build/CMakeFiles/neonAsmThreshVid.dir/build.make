@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh
+CMAKE_SOURCE_DIR = /home/odroid/CV/neonize/neonAsmThreshVal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build
+CMAKE_BINARY_DIR = /home/odroid/CV/neonize/neonAsmThreshVal/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/neonAsmThreshVid.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/neonAsmThreshVid.dir/flags.make
 
 CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o: CMakeFiles/neonAsmThreshVid.dir/flags.make
 CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o: ../neonAsmThreshVid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o -c /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/neonAsmThreshVid.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o -c /home/odroid/CV/neonize/neonAsmThreshVal/neonAsmThreshVid.cpp
 
 CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/neonAsmThreshVid.cpp > CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/CV/neonize/neonAsmThreshVal/neonAsmThreshVid.cpp > CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.i
 
 CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/neonAsmThreshVid.cpp -o CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/CV/neonize/neonAsmThreshVal/neonAsmThreshVid.cpp -o CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.s
 
 CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o.requires:
 .PHONY : CMakeFiles/neonAsmThreshVid.dir/neonAsmThreshVid.cpp.o.requires
@@ -126,6 +126,6 @@ CMakeFiles/neonAsmThreshVid.dir/clean:
 .PHONY : CMakeFiles/neonAsmThreshVid.dir/clean
 
 CMakeFiles/neonAsmThreshVid.dir/depend:
-	cd /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles/neonAsmThreshVid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/CV/neonize/neonAsmThreshVal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/CV/neonize/neonAsmThreshVal /home/odroid/CV/neonize/neonAsmThreshVal /home/odroid/CV/neonize/neonAsmThreshVal/build /home/odroid/CV/neonize/neonAsmThreshVal/build /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles/neonAsmThreshVid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/neonAsmThreshVid.dir/depend
 

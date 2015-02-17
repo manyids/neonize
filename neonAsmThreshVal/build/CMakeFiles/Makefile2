@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh
+CMAKE_SOURCE_DIR = /home/odroid/CV/neonize/neonAsmThreshVal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build
+CMAKE_BINARY_DIR = /home/odroid/CV/neonize/neonAsmThreshVal/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/neonAsmThresh.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/buil
 CMakeFiles/neonAsmThresh.dir/all:
 	$(MAKE) -f CMakeFiles/neonAsmThresh.dir/build.make CMakeFiles/neonAsmThresh.dir/depend
 	$(MAKE) -f CMakeFiles/neonAsmThresh.dir/build.make CMakeFiles/neonAsmThresh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles  1
 	@echo "Built target neonAsmThresh"
 .PHONY : CMakeFiles/neonAsmThresh.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/neonAsmThresh.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/neonAsmThresh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neonAsmThresh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles 0
 .PHONY : CMakeFiles/neonAsmThresh.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/neonAsmThresh.dir/clean
 CMakeFiles/neonAsmThreshVid.dir/all:
 	$(MAKE) -f CMakeFiles/neonAsmThreshVid.dir/build.make CMakeFiles/neonAsmThreshVid.dir/depend
 	$(MAKE) -f CMakeFiles/neonAsmThreshVid.dir/build.make CMakeFiles/neonAsmThreshVid.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles  2
 	@echo "Built target neonAsmThreshVid"
 .PHONY : CMakeFiles/neonAsmThreshVid.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/neonAsmThreshVid.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/neonAsmThreshVid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neonAsmThreshVid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmThreshVal/build/CMakeFiles 0
 .PHONY : CMakeFiles/neonAsmThreshVid.dir/rule
 
 # Convenience name for target.

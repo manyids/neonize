@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge
+CMAKE_SOURCE_DIR = /home/odroid/CV/neonize/neonAsmXEdge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build
+CMAKE_BINARY_DIR = /home/odroid/CV/neonize/neonAsmXEdge/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/neonAsmXEdgeVid.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/neonAsmXEdgeVid.dir/flags.make
 
 CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o: CMakeFiles/neonAsmXEdgeVid.dir/flags.make
 CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o: ../neonAsmXEdgeVid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o -c /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/neonAsmXEdgeVid.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o -c /home/odroid/CV/neonize/neonAsmXEdge/neonAsmXEdgeVid.cpp
 
 CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/neonAsmXEdgeVid.cpp > CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/CV/neonize/neonAsmXEdge/neonAsmXEdgeVid.cpp > CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.i
 
 CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/neonAsmXEdgeVid.cpp -o CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/CV/neonize/neonAsmXEdge/neonAsmXEdgeVid.cpp -o CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.s
 
 CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o.requires:
 .PHONY : CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o.requires
@@ -126,6 +126,6 @@ CMakeFiles/neonAsmXEdgeVid.dir/clean:
 .PHONY : CMakeFiles/neonAsmXEdgeVid.dir/clean
 
 CMakeFiles/neonAsmXEdgeVid.dir/depend:
-	cd /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles/neonAsmXEdgeVid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/CV/neonize/neonAsmXEdge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/CV/neonize/neonAsmXEdge /home/odroid/CV/neonize/neonAsmXEdge /home/odroid/CV/neonize/neonAsmXEdge/build /home/odroid/CV/neonize/neonAsmXEdge/build /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles/neonAsmXEdgeVid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/neonAsmXEdgeVid.dir/depend
 

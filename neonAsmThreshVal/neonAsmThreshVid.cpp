@@ -61,7 +61,7 @@ int main(void)
 	imshow( "Display window", dest );
 	i++;
 	if (i>7) {i = 0;} 
-	if (waitKey(10)>0) break;
+	if (waitKey(1)>0) break;
       }
     
     return 0;

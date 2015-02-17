@@ -32,7 +32,7 @@ int main ()
 {
   VideoCapture cap(0);
   if(!cap.isOpened()) return -1; 
-  
+
   Mat image (480, 640, CV_8UC3, Scalar(  0,0,0));
   Mat dest  (480, 640, CV_8UC3, Scalar(255,0,0));
 

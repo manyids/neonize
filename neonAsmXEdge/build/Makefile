@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge
+CMAKE_SOURCE_DIR = /home/odroid/CV/neonize/neonAsmXEdge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build
+CMAKE_BINARY_DIR = /home/odroid/CV/neonize/neonAsmXEdge/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,19 @@ neonAsmXEdgeVid/fast:
 	$(MAKE) -f CMakeFiles/neonAsmXEdgeVid.dir/build.make CMakeFiles/neonAsmXEdgeVid.dir/build
 .PHONY : neonAsmXEdgeVid/fast
 
+#=============================================================================
+# Target rules for targets named neonAsmXEdgeVidStrong
+
+# Build rule for target.
+neonAsmXEdgeVidStrong: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 neonAsmXEdgeVidStrong
+.PHONY : neonAsmXEdgeVidStrong
+
+# fast build rule for target.
+neonAsmXEdgeVidStrong/fast:
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/build
+.PHONY : neonAsmXEdgeVidStrong/fast
+
 neonAsmXEdge.o: neonAsmXEdge.cpp.o
 .PHONY : neonAsmXEdge.o
 
@@ -175,6 +188,30 @@ neonAsmXEdgeVid.cpp.s:
 	$(MAKE) -f CMakeFiles/neonAsmXEdgeVid.dir/build.make CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.s
 .PHONY : neonAsmXEdgeVid.cpp.s
 
+neonAsmXEdgeVidStrong.o: neonAsmXEdgeVidStrong.cpp.o
+.PHONY : neonAsmXEdgeVidStrong.o
+
+# target to build an object file
+neonAsmXEdgeVidStrong.cpp.o:
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/neonAsmXEdgeVidStrong.cpp.o
+.PHONY : neonAsmXEdgeVidStrong.cpp.o
+
+neonAsmXEdgeVidStrong.i: neonAsmXEdgeVidStrong.cpp.i
+.PHONY : neonAsmXEdgeVidStrong.i
+
+# target to preprocess a source file
+neonAsmXEdgeVidStrong.cpp.i:
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/neonAsmXEdgeVidStrong.cpp.i
+.PHONY : neonAsmXEdgeVidStrong.cpp.i
+
+neonAsmXEdgeVidStrong.s: neonAsmXEdgeVidStrong.cpp.s
+.PHONY : neonAsmXEdgeVidStrong.s
+
+# target to generate assembly for a file
+neonAsmXEdgeVidStrong.cpp.s:
+	$(MAKE) -f CMakeFiles/neonAsmXEdgeVidStrong.dir/build.make CMakeFiles/neonAsmXEdgeVidStrong.dir/neonAsmXEdgeVidStrong.cpp.s
+.PHONY : neonAsmXEdgeVidStrong.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -184,6 +221,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... neonAsmXEdge"
 	@echo "... neonAsmXEdgeVid"
+	@echo "... neonAsmXEdgeVidStrong"
 	@echo "... rebuild_cache"
 	@echo "... neonAsmXEdge.o"
 	@echo "... neonAsmXEdge.i"
@@ -191,6 +229,9 @@ help:
 	@echo "... neonAsmXEdgeVid.o"
 	@echo "... neonAsmXEdgeVid.i"
 	@echo "... neonAsmXEdgeVid.s"
+	@echo "... neonAsmXEdgeVidStrong.o"
+	@echo "... neonAsmXEdgeVidStrong.i"
+	@echo "... neonAsmXEdgeVidStrong.s"
 .PHONY : help
 
 

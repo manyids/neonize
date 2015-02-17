@@ -1,0 +1,2 @@
+/home/odroid/CV/neonize/neonAsmThresh/build/CMakeFiles/neonAsmThresh.dir
+/home/odroid/CV/neonize/neonAsmThresh/build/CMakeFiles/neonAsmThreshVid.dir

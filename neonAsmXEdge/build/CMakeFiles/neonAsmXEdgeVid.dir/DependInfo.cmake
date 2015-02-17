@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/neonAsmXEdgeVid.cpp" "/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmXEdge/build/CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o"
+  "/home/odroid/CV/neonize/neonAsmXEdge/neonAsmXEdgeVid.cpp" "/home/odroid/CV/neonize/neonAsmXEdge/build/CMakeFiles/neonAsmXEdgeVid.dir/neonAsmXEdgeVid.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

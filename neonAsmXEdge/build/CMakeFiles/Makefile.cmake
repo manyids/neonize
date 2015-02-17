@@ -70,4 +70,5 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/neonAsmXEdge.dir/DependInfo.cmake"
   "CMakeFiles/neonAsmXEdgeVid.dir/DependInfo.cmake"
+  "CMakeFiles/neonAsmXEdgeVidStrong.dir/DependInfo.cmake"
   )

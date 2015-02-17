@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/neonAsmThreshVid.cpp
+/home/odroid/CV/neonize/neonAsmThreshVal/neonAsmThreshVid.cpp
 opencv2/core/core.hpp
 -
 opencv2/imgcodecs.hpp
@@ -20,7 +20,7 @@ string
 cmath
 -
 arm_neon.h
-/home/odroid/CV/b4Sight/Tools/neon_testbed/neonAsmThresh/arm_neon.h
+/home/odroid/CV/neonize/neonAsmThreshVal/arm_neon.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
